@@ -1,0 +1,29 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    color: white;
+}
+
+#welcome-section{ 
+    background-color: #3a3d40;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 6rem;
+}
+
+#head4{
+    color: #be3144;
+    font-style: italic;
+    font-size: 3rem;
+    font-weight: 200;
+}
