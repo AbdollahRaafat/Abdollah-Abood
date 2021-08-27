@@ -7,6 +7,35 @@ body{
     color: white;
     width: 100%;
 }
+nav{
+    
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #be3144;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+    z-index: 10;
+    justify-content: flex-end;    
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 1.25rem;
+    cursor: pointer;
+  margin-right: 2rem;
+  padding:18.5px;
+}
+
+a:hover{
+    background-color: #45567d;
+}
+
+
 
 #welcome-section{ 
     background-color: #3a3d40;
