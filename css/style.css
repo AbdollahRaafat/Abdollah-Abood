@@ -27,3 +27,18 @@ h1{
     font-size: 3rem;
     font-weight: 200;
 }
+
+#projects {
+    display: flex;
+    height: 100vh;
+    background-color: #45567d;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-title {
+    border-bottom: 0.2rem solid white;
+    font-size: 2.5rem;
+    margin:0 auto 6rem auto;
+}
